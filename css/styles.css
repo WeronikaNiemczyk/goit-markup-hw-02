@@ -1,10 +1,61 @@
 body {
-  font-family: "Raleway", "Roboto", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
 }
 .button:hover {
   background-color: #2196f3;
 }
+.button {
+  font-size: 16px;
+  line-height: 1.875;
+}
+.button.port {
+  line-height: 1.26;
+}
 .link:hover {
   color: #2196f3;
 }
+.webstudio {
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.nav {
+  font-size: 14px;
+  line-height: 1.17;
+}
+h1 {
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+figcaption,
+h5 {
+  font-size: 16px;
+  line-height: 1.17px;
+}
+h4 {
+  line-height: 1.17;
+  font-size: 16px;
+}
+p {
+  line-height: 1.71;
+  font-size: 16px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 2;
+}
+.nav .foot {
+  line-height: 1.71;
+}
+
+.descrp {
+  line-height: 1.88;
+}
+
