@@ -8,9 +8,11 @@ body {
 .button {
   font-size: 16px;
   line-height: 1.875;
+  color: #ffffff;
 }
 .button.port {
   line-height: 1.26;
+  color: #212121;
 }
 .link:hover {
   color: #2196f3;
@@ -20,19 +22,32 @@ body {
   line-height: 1.17;
 }
 
-.nav {
+nav {
+  font-size: 14px;
+  line-height: 1.17;
+}
+address {
+  font-size: 14px;
+  line-height: 1.17;
+}
+.contact {
   font-size: 14px;
   line-height: 1.17;
 }
 h1 {
   font-size: 44px;
   line-height: 1.36;
+  color: #ffffff;
 }
 
-figcaption,
 h5 {
   font-size: 16px;
   line-height: 1.17px;
+}
+figcaption {
+  font-size: 16px;
+  line-height: 1.17px;
+  color: #757575;
 }
 h4 {
   line-height: 1.17;
@@ -41,6 +56,7 @@ h4 {
 p {
   line-height: 1.71;
   font-size: 16px;
+  color: #757575;
 }
 h2 {
   font-size: 36px;
@@ -51,11 +67,33 @@ h6 {
   font-size: 18px;
   line-height: 2;
 }
-.nav .foot {
+.foot {
   line-height: 1.71;
+  color: #ffffff;
 }
 
 .descrp {
   line-height: 1.88;
+  color: #757575;
 }
-
+span {
+  color: #2196f3;
+}
+.sblack {
+  color: #000000;
+}
+.swhite {
+  color: #ffffff;
+}
+.link.contact {
+  color: #757575;
+}
+.nav.foot {
+  color: #ffffff;
+}
+.link.nav.foot {
+  color: rgba(255, 255, 255, 0.6);
+}
+.link.foot {
+  color: rgba(255, 255, 255, 0.6);
+}
