@@ -2,3 +2,9 @@ body {
   font-family: "Raleway", "Roboto", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+.button:hover {
+  background-color: #2196f3;
+}
+.link:hover {
+  color: #2196f3;
+}
