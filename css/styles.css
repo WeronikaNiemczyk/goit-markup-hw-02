@@ -2,6 +2,10 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
+
+ul {
+  list-style-type: none;
+}
 .button:hover {
   background-color: #2196f3;
 }
@@ -9,10 +13,12 @@ body {
   font-size: 16px;
   line-height: 1.875;
   color: #ffffff;
+  font-weight: 700;
 }
 .button.port {
   line-height: 1.26;
   color: #212121;
+  font-weight: 500;
 }
 .link:hover {
   color: #2196f3;
@@ -25,6 +31,14 @@ body {
 nav {
   font-size: 14px;
   line-height: 1.17;
+  font-weight: 500;
+}
+
+.link {
+  text-decoration: none;
+}
+nav .link {
+  color: #212121;
 }
 address {
   font-size: 14px;
@@ -33,16 +47,19 @@ address {
 .contact {
   font-size: 14px;
   line-height: 1.17;
+  font-weight: 500;
 }
 h1 {
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
+  font-weight: 900;
 }
 
 h5 {
   font-size: 16px;
   line-height: 1.17px;
+  font-weight: 500;
 }
 figcaption {
   font-size: 16px;
@@ -52,6 +69,7 @@ figcaption {
 h4 {
   line-height: 1.17;
   font-size: 16px;
+  font-weight: 700;
 }
 p {
   line-height: 1.71;
@@ -61,11 +79,13 @@ p {
 h2 {
   font-size: 36px;
   line-height: 1.17;
+  font-weight: 700;
 }
 
 h6 {
   font-size: 18px;
   line-height: 2;
+  font-weight: 700;
 }
 .foot {
   line-height: 1.71;
@@ -87,6 +107,7 @@ span {
 }
 .link.contact {
   color: #757575;
+  font-weight: 500;
 }
 .nav.foot {
   color: #ffffff;
