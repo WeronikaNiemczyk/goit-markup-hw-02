@@ -1,13 +1,14 @@
-body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: #212121;
-  letter-spacing: 0.03em;
-}
 :root {
   --main-link-color: #2196f3;
   --font-background-color: #757575;
   --main-background-color: #ffffff;
 }
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
+
 ul {
   list-style-type: none;
 }
